@@ -48,7 +48,7 @@ function setFrequency(freq){
     periodicity = wavelength / speedOfLight
 }
 function setWavelength(waveLen){
-    wavelength = wavLen
+    wavelength = waveLen
     frequency = speedOfLight / waveLen
     setFrequency(frequency)
 }
